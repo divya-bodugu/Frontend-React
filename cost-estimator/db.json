@@ -1,0 +1,96 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Online Grocery Store",
+      "client": "Daily Basket",
+      "status": "Completed",
+      "ownerId": 1,
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-15",
+      "hours": 120,
+      "finalCost": 530332
+    },
+    {
+      "id": 2,
+      "name": "FinTech Banking App",
+      "client": "GreenLeaf Solutions",
+      "status": "In Progress",
+      "ownerId": 2,
+      "startDate": "2026-09-05",
+      "endDate": "2026-09-25",
+      "hours": 180,
+      "finalCost": 0
+    },
+    {
+      "id": 3,
+      "name": "E-commerce Project",
+      "client": "Fashion Hub Pvt Ltd",
+      "status": "Pending",
+      "ownerId": 3,
+      "startDate": "2026-09-10",
+      "endDate": "2026-09-30",
+      "hours": 100,
+      "finalCost": null
+    },
+    {
+      "id": 4,
+      "name": "Cloud Migration",
+      "client": "Apex Tech",
+      "status": "Review",
+      "ownerId": 4,
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-20",
+      "hours": 80,
+      "finalCost": null
+    },
+    {
+      "id": 5,
+      "name": "Healthcare Portal",
+      "client": "CarePlus Hospitals",
+      "status": "In Progress",
+      "ownerId": 5,
+      "startDate": "2026-09-12",
+      "endDate": "2026-10-10",
+      "hours": 150,
+      "finalCost": 640000
+    },
+    {
+      "id": 6,
+      "name": "Smart Inventory Tracker",
+      "client": "LogiTech Systems",
+      "status": "Completed",
+      "ownerId": 6,
+      "startDate": "2026-08-15",
+      "endDate": "2026-09-18",
+      "hours": 135,
+      "finalCost": 485000
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Divya"
+    },
+    {
+      "id": 2,
+      "name": "Meena"
+    },
+    {
+      "id": 3,
+      "name": "Venkat"
+    },
+    {
+      "id": 4,
+      "name": "Govind"
+    },
+    {
+      "id": 5,
+      "name": "Chandana"
+    },
+    {
+      "id": 6,
+      "name": "Mounika"
+    }
+  ]
+}
