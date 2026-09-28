@@ -1,27 +1,30 @@
+/* TaskEstimator.css */
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  padding: 24px;
-  background: #e5e5e5;
-  color: #222222;
+  padding: 36px 20px;
+  background-color: #f8fafc; 
+  color: #0f172a;       
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
+/* Main Container */
 .container {
-  max-width: 800px;
+  max-width: 860px;
   width: 100%;
-  margin: 20px auto;
-  border: 1px solid #cfcfcf;
+  margin: 0 auto;
+  border: 1px solid #e2e8f0;
   border-radius: 12px;
-  padding: 28px;
-  background: #ffffff;
-  color: #222222;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  padding: 32px 36px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
 }
 
+/* Header Section */
 .top {
   display: flex;
   justify-content: space-between;
@@ -31,10 +34,11 @@ body {
 }
 
 .title {
-  font-size: 26px;
+  font-size: 24px;
   margin: 0;
-  color: #222222;
+  color: #1e3a8a; 
   font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 .title.left {
@@ -42,159 +46,152 @@ body {
   margin-bottom: 20px;
 }
 
+/* Home Card */
 .card {
-  border: 1px solid #d1d1d1;
-  border-radius: 8px;
-  padding: 36px 30px;
-  background: #f5f5f5;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 44px 32px;
+  background-color: #f8fafc;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 22px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  gap: 24px;
 }
 
 .description {
   margin: 0;
   font-size: 15px;
   line-height: 1.6;
-  color: #555555;
+  color: #475569;
   max-width: 620px;
 }
 
 .actions {
   display: flex;
-  gap: 10px;
+  gap: 12px;
 }
 
+/* 1. BUTTONS*/
 .button {
-  background: #2b2b2b;
-  color: white;
-  border: 1px solid #1f1f1f;
-  border-radius: 6px;
+  background-color: #2563eb; 
+  color: #ffffff;
+  border: 1px solid #1d4ed8;
+  border-radius: 8px;
   padding: 10px 22px;
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+  transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
 .button:hover {
-  background: #111111;
+  background-color: #1d4ed8; 
+  border-color: #1e40af;
+  transform: translateY(-1px);
 }
 
+/* Secondary Button with Professional Slate Border */
 .button.secondary {
-  background: white;
-  color: #2b2b2b;
-  border: 1px solid #2b2b2b;
+  background-color: #ffffff;
+  color: #1e40af;
+  border: 1px solid #cbd5e1;
   box-shadow: none;
 }
 
 .button.secondary:hover {
-  background: #eeeeee;
+  background-color: #eff6ff;
+  border-color: #93c5fd;
 }
 
+/* Table Wrapper */
 .wrapper {
   width: 100%;
   overflow-x: auto;
-  margin-top: 16px;
+  margin-top: 18px;
   border-radius: 8px;
-  border: 1px solid #cccccc;
+  border: 1px solid #e2e8f0;
 }
 
 .table {
   width: 100%;
   border-collapse: collapse;
-  min-width: 500px;
+  min-width: 550px;
 }
 
+/* Table Header in Deep Professional Blue */
 .table th {
-  padding: 12px;
-  background: #2b2b2b;
-  color: white;
+  padding: 12px 16px;
+  background-color: #1e40af; 
+  color: #ffffff;
   font-size: 13px;
   font-weight: 600;
   text-align: left;
+  letter-spacing: 0.02em;
 }
 
 .table td {
-  padding: 10px 12px;
-  background: white;
-  color: #222222;
+  padding: 12px 14px;
+  background-color: #ffffff;
+  color: #1e293b;
   font-size: 14px;
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid #f1f5f9;
   vertical-align: middle;
 }
 
-.input {
-  width: 100%;
-  border: 1px solid #c8c8c8;
-  border-radius: 4px;
-  padding: 8px;
-  background: white;
-  color: #222222;
-  font-size: 14px;
+.table tr:hover td {
+  background-color: #f8fafc; 
 }
 
-.input:focus {
-  outline: 2px solid #999999;
-  border-color: #333333;
-}
-
-.select {
-  width: 100%;
-  border: 1px solid #c8c8c8;
-  border-radius: 4px;
-  padding: 8px;
-  background: white;
-  color: #222222;
-  font-size: 14px;
-}
-
-.select:focus {
-  outline: 2px solid #999999;
-  border-color: #333333;
-}
-
+/* Form Inputs & Selects */
+.input,
+.select,
 .hours {
   width: 100%;
-  border: 1px solid #c8c8c8;
-  border-radius: 4px;
-  padding: 8px;
-  background: white;
-  color: #222222;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 8px 12px;
+  background-color: #ffffff;
+  color: #0f172a;
   font-size: 14px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
+.input:focus,
+.select:focus,
 .hours:focus {
-  outline: 2px solid #999999;
-  border-color: #333333;
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15); 
 }
 
 .cost {
   font-size: 14px;
-  font-weight: 600;
-  color: #333333;
+  font-weight: 700;
+  color: #1e40af; 
   margin: 0;
 }
 
+/* Delete Button */
 .delete {
-  background: white;
-  color: #444444;
-  border: 1px solid #aaaaaa;
-  border-radius: 4px;
+  background-color: #ffffff;
+  color: #dc2626;
+  border: 1px solid #fecaca;
+  border-radius: 6px;
   padding: 6px 12px;
   font-size: 13px;
   font-weight: 500;
   cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 .delete:hover {
-  background: #eeeeee;
-  color: #111111;
+  background-color: #fef2f2;
+  border-color: #dc2626;
 }
 
+/* Summary Cards */
 .summary {
   display: flex;
   justify-content: space-between;
@@ -204,45 +201,49 @@ body {
 
 .stat {
   flex: 1;
-  border: 1px solid #cccccc;
+  border: 1px solid #e2e8f0;
   border-radius: 8px;
-  padding: 16px;
-  background: #f1f1f1;
+  padding: 18px;
+  background-color: #f8fafc;
   text-align: center;
 }
 
 .stat .label {
   font-size: 12px;
   font-weight: 600;
-  color: #666666;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
   margin: 0 0 8px 0;
 }
 
 .value {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   margin: 0;
-  color: #222222;
+  color: #1e40af; 
 }
 
+/* Empty State */
 .empty {
-  border: 1px dashed #999999;
+  border: 1px dashed #cbd5e1;
   border-radius: 8px;
   padding: 40px 20px;
-  margin: 16px 0;
+  margin: 18px 0;
   font-size: 15px;
   text-align: center;
-  background: #f1f1f1;
-  color: #555555;
+  background-color: #f8fafc;
+  color: #64748b;
 }
 
+/* Responsive */
 @media (max-width: 600px) {
   body {
     padding: 12px;
   }
 
   .container {
-    padding: 16px;
+    padding: 18px;
   }
 
   .top {

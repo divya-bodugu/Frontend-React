@@ -6,19 +6,34 @@ import "./TaskEstimator.css";
 function Estimation() {
   const roles = [
     {
-      id: "developer",
-      name: "developer",
-      rate: 1500
+      id: "frontend",
+      name: "Frontend Developer",
+      rate: 1200
     },
     {
-      id: "designer",
-      name: "designer",
+      id: "backend",
+      name: "Backend Developer",
+      rate: 1400
+    },
+    {
+      id: "fullstack",
+      name: "Full Stack Developer",
+      rate: 1600
+    },
+    {
+      id: "qa",
+      name: "QA Tester",
       rate: 1000
     },
     {
-      id: "tester",
-      name: "tester",
-      rate: 1100
+      id: "analyst",
+      name: "Business Analyst",
+      rate: 1300
+    },
+    {
+      id: "pm",
+      name: "Project Manager",
+      rate: 1800
     }
   ];
 
@@ -277,7 +292,7 @@ function Estimation() {
                       delete
                     </button>
                   </td>
-                  
+
                 </tr>
               );
             })}
