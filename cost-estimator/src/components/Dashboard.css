@@ -1,0 +1,133 @@
+/* Dashboard.css */
+.dashboard-subtitle {
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.dashboard-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.dashboard-metric-label {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.dashboard-metric-value {
+  font-size: 2rem;
+  margin-top: 8px;
+  font-weight: 700;
+}
+
+.dashboard-metric-value.total {
+  color: var(--accent);
+}
+
+.dashboard-metric-value.in-progress {
+  color: var(--warning);
+}
+
+.dashboard-metric-value.completed {
+  color: var(--success);
+}
+
+.dashboard-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.dashboard-section-hint {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.dashboard-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  gap: 20px;
+}
+
+.dashboard-project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0;
+  border: 1px solid var(--border);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.dashboard-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 10px;
+}
+
+.dashboard-card-title {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.dashboard-card-id {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.dashboard-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.88rem;
+  margin: 8px 0 16px 0;
+}
+
+.dashboard-card-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard-card-row-cost {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--border);
+}
+
+.dashboard-card-label {
+  color: var(--text-muted);
+}
+
+.dashboard-card-val {
+  font-weight: 600;
+}
+
+.dashboard-card-val-muted {
+  color: var(--text-muted);
+}
+
+.dashboard-card-val-cost {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.dashboard-card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.dashboard-card-btn {
+  flex: 1;
+  text-align: center;
+  justify-content: center;
+  font-size: 0.85rem;
+}
