@@ -1,0 +1,52 @@
+/* CreateProject.css */
+.create-project-container {
+  max-width: 600px;
+  width: 100%;
+}
+
+.create-project-subtitle {
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.create-project-error {
+  color: var(--danger);
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.create-project-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.create-project-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-project-label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.create-project-input {
+  width: 100%;
+  max-width: 100%;
+}
+
+.create-project-textarea {
+  width: 100%;
+  max-width: 100%;
+  resize: vertical;
+}
+
+.create-project-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 12px;
+}

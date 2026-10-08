@@ -1,0 +1,15 @@
+/* ProjectNotFound.css */
+.project-notfound-text {
+  color: var(--text-muted);
+  margin: 12px 0 20px;
+}
+
+.project-notfound-id {
+  color: var(--text-main);
+}
+
+.project-notfound-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}

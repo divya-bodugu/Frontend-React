@@ -1,0 +1,42 @@
+/* ProjectDetail.css */
+.project-breadcrumb {
+  margin-bottom: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.project-breadcrumb-link {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.project-breadcrumb-link:hover {
+  text-decoration: underline;
+}
+
+.project-breadcrumb-separator {
+  margin: 0 8px;
+}
+
+.project-detail-header {
+  margin-bottom: 16px;
+}
+
+.project-title-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.project-title-row h1 {
+  margin: 0;
+}
+
+.project-meta-text {
+  color: var(--text-muted);
+  margin-top: 6px;
+}
+
+.project-id-highlight {
+  color: var(--text-main);
+}

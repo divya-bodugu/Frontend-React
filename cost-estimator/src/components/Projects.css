@@ -1,0 +1,74 @@
+/* Projects.css */
+.projects-subtitle {
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.projects-search-card {
+  margin-bottom: 20px;
+}
+
+.projects-search-bar {
+  margin: 0;
+}
+
+.projects-search-input {
+  max-width: 100%;
+}
+
+.projects-empty-state {
+  text-align: center;
+  padding: 40px;
+}
+
+.projects-empty-text {
+  color: var(--text-muted);
+}
+
+.projects-clear-btn {
+  margin-top: 12px;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.projects-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.projects-item-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.projects-item-title {
+  font-size: 1.2rem;
+}
+
+.projects-item-meta {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-top: 6px;
+}
+
+.projects-item-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.pagination-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination-info {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}

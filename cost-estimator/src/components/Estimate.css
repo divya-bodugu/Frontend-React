@@ -1,0 +1,56 @@
+/* Estimate.css */
+.estimate-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.estimate-total {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.estimate-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  min-width: 500px;
+}
+
+.estimate-thead-row {
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.estimate-th {
+  padding: 10px 8px;
+}
+
+.estimate-th-right {
+  padding: 10px 8px;
+  text-align: right;
+}
+
+.estimate-row {
+  border-bottom: 1px solid var(--border);
+}
+
+.estimate-td-task {
+  padding: 12px 8px;
+  font-weight: 500;
+}
+
+.estimate-td-muted {
+  padding: 12px 8px;
+  color: var(--text-muted);
+}
+
+.estimate-td-subtotal {
+  padding: 12px 8px;
+  text-align: right;
+  font-weight: 600;
+}
